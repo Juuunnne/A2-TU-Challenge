@@ -94,7 +94,7 @@ namespace TU_Challenge
         public void IsPremier(int a, bool expected)
         {
             bool result = MyMathImplementation.IsPrimary(a);
-            Assert.That(result, Is.EqualTo(expected));
+             Assert.That(result, Is.EqualTo(expected));
         }
 
         [Test]
@@ -173,7 +173,7 @@ namespace TU_Challenge
 
             // Test
             result = MyMathImplementation.IsListInOrder(
-                new List<int>() { -123, -1, 0, 12, 45, 90, 123});
+                new List<int>() { -123, -1, 0, 12, 45, 90, 123 });
             Assert.IsTrue(result);
         }
 
@@ -187,7 +187,7 @@ namespace TU_Challenge
 
             var result = MyMathImplementation.Sort(toSort);
 
-            for (int i = 0; i < result.Count-1; i++)
+            for (int i = 0; i < result.Count - 1; i++)
             {
                 Assert.IsTrue(result[i] < result[i + 1]);
             }

@@ -5,7 +5,7 @@ VisualStudioVersion = 17.2.32516.85
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TU Challenge", "TU Challenge\TU Challenge.csproj", "{92A7F623-776C-43B0-99DF-12661CD46D28}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TU Challenge.Tests", "TU Challenge.Tests\TU Challenge.Tests.csproj", "{0622F004-9151-4B1D-BB4F-76674EC3B4AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TU Challenge.Tests", "TU Challenge.Tests\TU Challenge.Tests.csproj", "{0622F004-9151-4B1D-BB4F-76674EC3B4AE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
